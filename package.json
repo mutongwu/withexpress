@@ -1,0 +1,24 @@
+{
+  "name": "withexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "dev2": "webpack-dev-server --open --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.2",
+    "html-webpack-plugin": "^2.28.0",
+    "mime": "^2.2.0",
+    "webpack": "1.15.0",
+    "webpack-dev-server": "1.16.5",
+    "webpack-hot-middleware": "^2.21.2"
+  },
+  "dependencies": {
+    "webpack-dev-middleware": "1.12.2"
+  }
+}
